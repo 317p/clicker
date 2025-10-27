@@ -4,11 +4,17 @@ body {
     padding: 20px;
 }
 .topBar {
-    background-color:gray;
     top: 0;
     z-index: 10;
 }
-.promoBar, .topBar {
+.promoBar {
+    bottom: 0;
+}
+.topBar .levelWrap {
+    margin-left: 1rem;
+}
+.promoBar, .topBar { 
+    background-color:gray;
     display: inline-flex;
     height: 1.2rem;
     line-height: 1.2rem;
