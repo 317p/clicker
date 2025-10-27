@@ -1,9 +1,16 @@
+html {
+    overflow-y: hidden;
+    box-sizing: border-box;
+    font-size: 16px;
+}
 body {
     font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica  Neue", "Helvetica", "Arial", sans-serif;
     line-height: normal;
     touch-action: manipulation;
     font-size: 1em;
     font-weight: 400;
+    margin: 0;
+    padding: 0;
 }
 .topBar {
     top: 0;
