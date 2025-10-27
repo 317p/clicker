@@ -3,6 +3,18 @@ body {
     text-align: center;
     padding: 20px;
 }
+.topBar {
+    background-color:gray;
+    top: 0;
+    z-index: 10;
+}
+.promoBar, .topBar {
+    display: inline-flex;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    width: 100%;
+    position: fixed;
+}
 #score-area {
     font-size: 24px;
     margin-bottom: 20px;
